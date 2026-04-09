@@ -5,3 +5,7 @@ This repo hosts my config files, for the convenience of pulling them to other sy
 なんかそれは「linux-dotfiles」って呼ばれるのにここのファイルはただ雑多のアプリ向けだけで、「linux」って関係がないことは変だと思わないか？
 えぇ、俺もそういう思わん。：P
 このリポジトリは、他のシステムでも取得できるようにして、自分の設定ファイルを含める。変更させる可能性が高い。
+
+Requirements/使用条件: sway, swaylock, dunst, waybar, alacritty, bemenu, neovim
+This configuration uses the fonts Terminus and Cozette.
+この設定はTerminusとCozetteのフォントを使用している。
