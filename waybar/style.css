@@ -9,16 +9,20 @@
 #waybar {
   background: transparent;
   color: @text;
-  margin: 5px 5px;
+  margin: 0px 0px;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000,
           -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 #workspaces, #mode, #scratchpad {
-  border-radius: .6rem;
+  border-radius: .4rem;
   background-color: @surface0;
-  margin: 5px 0 0 10px;
+  margin: .5rem 0 0 .5rem;
   padding: 0 .5rem 0 .5rem;
+}
+
+#workspaces {
+  padding: 0 0.2rem;
 }
 
 #mode {
@@ -27,27 +31,22 @@
 
 #workspaces button, #scratchpad button {
   color: @lavender;
-  padding: 0.2rem;
+  padding: 0.2rem 0.3rem;
 }
 
 #workspaces button:hover, #scratchpad button:hover {
-  color: @sapphire;
-  border-radius: 1rem;
+  border-bottom: 2px solid @teal;
+  background-color: @surface0
 }
 
 #workspaces button.focused {
-  color: @sky;
-  border-bottom: 2px solid @sky;
-  border-top: 2px solid @sky;
-  border-radius: 0px;
-  font-weight:bolder
+  background-color: @blue;
+  color: @surface0;
 }
 
 #workspaces button.urgent {
-    color: @flamingo;
-    font-weight: bolder;
-    border-bottom: 2px solid @flamingo;
-  border-radius: 0px;
+    background-color: @flamingo;
+    color: @surface0
 }
 
 #custom-music,
@@ -62,7 +61,7 @@
 #custom-lock,
 #custom-power {
   background-color: @surface0;
-  padding: 0.5rem .7rem;
+  padding: 0.5rem .6rem;
   margin: 5px 0 0 0;
 }
 
@@ -85,7 +84,7 @@
 #clock {
   color: @mauve;
   border-radius: 0px .5rem .5rem 0px;
-  margin-right: 1rem;
+  margin-right: .5rem;
 }
 
 #battery {
@@ -111,7 +110,7 @@
 #pulseaudio {
   color: @flamingo;
   border-radius: .5rem 0px 0px .5rem;
-  margin-left: 1rem;
+  margin-left: .5rem;
 }
 
 #custom-music {
@@ -124,13 +123,6 @@
     color: @lavender;
 }
 
-#custom-power {
-    margin-right: -0.5rem;
-    border-radius: 1rem 0rem 0rem 1rem;
-    color: @red;
-}
-
 #tray {
-  margin-right: 1rem;
-  border-radius: 1rem;
+  border-radius: .4rem;
 }
