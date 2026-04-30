@@ -15,10 +15,10 @@
 }
 
 #workspaces, #mode, #scratchpad {
-  border-radius: .4rem;
+  border-radius: .5rem;
   background-color: @surface0;
   margin: .3rem 0 0 .5rem;
-  padding: 0 .5rem 0 .5rem;
+  padding: .5rem;
 }
 
 #workspaces {
@@ -29,14 +29,18 @@
     color: @flamingo;
 }
 
+#scratchpad {
+  color: @text;
+}
+
 #workspaces button, #scratchpad button {
   color: @lavender;
-  padding: 0.2rem 0.3rem;
+  padding: 0.2rem 0.4rem;
 }
 
 #workspaces button:hover, #scratchpad button:hover {
   border-bottom: 2px solid @teal;
-  background-color: @surface0
+  background-color: @surface0;
 }
 
 #workspaces button.focused {
